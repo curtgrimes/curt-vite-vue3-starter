@@ -8,6 +8,7 @@
 - [Vue 3](https://vuejs.org/)
 - [pnpm](https://pnpm.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [tailwind-merge](https://github.com/dcastil/tailwind-merge)
 - [VueUse](https://vueuse.org/)
 - Auto-importing with [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 - [Material Design Icons](https://icon-sets.iconify.design/mdi/) with [unplugin-icons](https://github.com/antfu/unplugin-icons) (see [StarterMessageLink.vue](src/components/StarterMessageLink.vue) for an example)
