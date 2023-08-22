@@ -15,7 +15,7 @@ const count = ref(0);
     </h1>
     <p>{{ message }}</p>
 
-    <p class="flex flex-col justify-center gap-2 md:flex-row">
+    <p class="flex flex-col flex-wrap justify-center gap-2 md:flex-row">
       <StarterMessageLink
         url="https://github.com/curtgrimes/curt-vite-vue3-starter"
         text="GitHub"
@@ -29,6 +29,10 @@ const count = ref(0);
       <StarterMessageLink
         :text="`Test reactivity: ${count}`"
         @click="count++"
+      />
+      <StarterMessageLink
+        text="Test routing"
+        @click="$router.push('/page-two')"
       />
     </p>
   </div>

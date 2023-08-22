@@ -2,6 +2,8 @@
   "extends": ["@antfu", "plugin:tailwindcss/recommended"],
   "rules": {
     "semi": ["off", "always"],
-    "@typescript-eslint/semi": ["off", "always"]
+    "@typescript-eslint/semi": ["off", "always"],
+    "@typescript-eslint/no-unsafe-argument": ["off"],
+    "@typescript-eslint/no-unsafe-assignment": ["off"]
   }
 }

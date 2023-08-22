@@ -18,6 +18,6 @@ defineProps<{
 
 <style scoped>
 a,button {
-  @apply inline-flex md:justify-start items-center justify-center gap-1 rounded-md border border-transparent px-2 py-1 text-blue-700 hover:border-blue-300 hover:bg-blue-100 ;
+  @apply inline-flex md:justify-start items-center justify-center gap-1 rounded-md border border-transparent px-2 py-1 text-blue-700 hover:border-blue-300 hover:bg-blue-100;
 }
 </style>

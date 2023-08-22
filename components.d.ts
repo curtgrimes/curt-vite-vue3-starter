@@ -9,7 +9,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     IMdiGithub: typeof import('~icons/mdi/github')['default']
     IMdiLightningBolt: typeof import('~icons/mdi/lightning-bolt')['default']
-    IMdiStackblitz: typeof import('~icons/mdi/stackblitz')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
     StarterMessage: typeof import('./src/components/StarterMessage.vue')['default']
     StarterMessageLink: typeof import('./src/components/StarterMessageLink.vue')['default']
   }

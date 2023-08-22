@@ -7,6 +7,7 @@
 - [Vite](https://vitejs.dev/)
 - [Vue 3](https://vuejs.org/)
 - [pnpm](https://pnpm.io/)
+- [vue-router](https://router.vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [tailwind-merge](https://github.com/dcastil/tailwind-merge)
 - [VueUse](https://vueuse.org/)
