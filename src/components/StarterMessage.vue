@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue';
 
 defineProps<{ message: string }>();
 
@@ -8,12 +8,14 @@ const count = ref(0);
 
 <template>
   <div
-    class="bg-gray-200 max-w-xl mx-auto mt-12 p-5 rounded text-center flex gap-4 flex-col"
+    class="mx-auto mt-12 flex max-w-xl flex-col gap-4 rounded bg-gray-200 p-5 text-center"
   >
-    <h1 class="text-xl">Curt's Vite + Vue3 Starter</h1>
+    <h1 class="text-xl">
+      Curt's Vite + Vue3 Starter
+    </h1>
     <p>{{ message }}</p>
 
-    <p class="flex gap-2 justify-center flex-col md:flex-row">
+    <p class="flex flex-col justify-center gap-2 md:flex-row">
       <StarterMessageLink
         url="https://github.com/curtgrimes/curt-vite-vue3-starter"
         text="GitHub"
@@ -25,8 +27,8 @@ const count = ref(0);
         icon="stackblitz"
       />
       <StarterMessageLink
-        @click="count++"
         :text="`Test reactivity: ${count}`"
+        @click="count++"
       />
     </p>
   </div>

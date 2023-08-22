@@ -11,7 +11,7 @@
 - [VueUse](https://vueuse.org/)
 - Auto-importing with [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)
 - [Material Design Icons](https://icon-sets.iconify.design/mdi/) with [unplugin-icons](https://github.com/antfu/unplugin-icons) (see [StarterMessageLink.vue](src/components/StarterMessageLink.vue) for an example)
-
+- [eslint-config from @antfu](https://github.com/antfu/eslint-config)
 ## Install and Use
 
 ### Option 1: Quick start with Stackblitz
