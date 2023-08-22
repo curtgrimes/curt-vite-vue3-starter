@@ -17,7 +17,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.40.2",
     "@iconify-json/mdi": "^1.1.54",
-    "@types/node": "^20.5.2",
+    "@types/node": "^20.5.3",
     "@vitejs/plugin-vue": "^4.3.3",
     "@vueuse/components": "^10.3.0",
     "@vueuse/core": "^10.3.0",
