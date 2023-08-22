@@ -1,5 +1,7 @@
 # Curt's Vite + Vue 3 Starter
 
+⚡ Quick start: https://stackblitz.com/github/curtgrimes/curt-vite-vue3-starter
+
 ## Features
 
 - [Vite](https://vitejs.dev/)
@@ -34,7 +36,7 @@ $ pnpm dev
 
 ### Option 3: Create GitHub template
 
-Create a new repository on GitHub with this template: https://stackblitz.com/github/curtgrimes/curt-vite-vue3-starter/generate
+Create a new GitHub repository with this template: https://github.com/curtgrimes/curt-vite-vue3-starter/generate
 
 ## Recommended IDE Setup
 
