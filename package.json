@@ -1,0 +1,30 @@
+{
+  "name": "curt-vite-vue3-starter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.1.54",
+    "@types/node": "^20.5.2",
+    "@vitejs/plugin-vue": "^4.3.3",
+    "@vueuse/components": "^10.3.0",
+    "@vueuse/core": "^10.3.0",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "unplugin-icons": "^0.16.5",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.9",
+    "vue-tsc": "^1.8.8"
+  },
+  "license": "MIT"
+}
