@@ -1,6 +1,6 @@
 # Curt's Vite + Vue 3 Starter
 
-⚡ Quick start: https://stackblitz.com/github/curtgrimes/curt-vite-vue3-starter
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/curtgrimes/curt-vite-vue3-starter?file=src/App.vue&title=Curt's%20Vue%20Starter)
 
 ## Features
 
@@ -18,7 +18,7 @@
 
 ### Option 1: Quick start with Stackblitz
 
-Clone on Stackblitz: https://stackblitz.com/github/curtgrimes/curt-vite-vue3-starter
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz_small.svg)](https://stackblitz.com/fork/github/curtgrimes/curt-vite-vue3-starter?file=src/App.vue&title=Curt's%20Vue%20Starter)
 
 ### Option 2: Clone locally
 
