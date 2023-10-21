@@ -10,6 +10,7 @@ const app = createApp(App);
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
+    { path: '/', redirect: '/page-one' },
     { path: '/page-one', component: PageOne },
     { path: '/page-two', component: PageTwo },
 
