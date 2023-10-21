@@ -10,6 +10,7 @@ const count = ref(0);
   <div
     class="mx-auto flex flex-col gap-4 text-center"
   >
+    <img src="@/assets/vue.svg" class="w-8 mx-auto" />
     <h1 class="text-xl">
       Curt's Vite + Vue3 Starter
     </h1>
