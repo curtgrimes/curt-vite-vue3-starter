@@ -1,19 +1,23 @@
 <script setup lang="ts">
-defineProps<{
-  url?: string
-  text: string
+import { RouterLinkProps } from 'vue-router';
+
+withDefaults(defineProps<{
+  to?: RouterLinkProps['to']
+  text?: string
   icon?: 'github' | 'stackblitz'
-}>();
+}>(), {
+  to: ''
+});
 </script>
 
 <template>
-  <component
-    :is="url ? 'a' : 'button'" v-bind="{ ...(url ? { href: url, target: '_blank' } : {}) }"
+  <RouterLink
+    :to="to"
   >
     <i-mdi-github v-if="icon === 'github'" />
     <i-mdi-lightning-bolt v-else-if="icon === 'stackblitz'" />
-    {{ text }}
-  </component>
+    <slot>{{ text }}</slot>
+  </RouterLink>
 </template>
 
 <style scoped>

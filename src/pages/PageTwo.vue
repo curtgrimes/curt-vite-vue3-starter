@@ -1,7 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1 class="m-20 text-center text-4xl">
-    I am page two
-  </h1>
+  <div class="text-sm flex items-center gap-2 justify-center">
+    <StarterMessageLink to="/page-one">
+      <i-mdi-arrow-left /> Back to /page-one
+    </StarterMessageLink>
+    This is src/pages/PageTwo.vue
+  </div>
 </template>

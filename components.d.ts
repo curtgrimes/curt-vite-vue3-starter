@@ -7,6 +7,8 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    IMdiArrowLeft: typeof import('~icons/mdi/arrow-left')['default']
+    IMdiArrowRight: typeof import('~icons/mdi/arrow-right')['default']
     IMdiGithub: typeof import('~icons/mdi/github')['default']
     IMdiLightningBolt: typeof import('~icons/mdi/lightning-bolt')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import './style.css';
 import { createRouter, createWebHashHistory } from 'vue-router';
 import App from '@/App.vue';
-import Home from '@/pages/Home.vue';
+import PageOne from '@/pages/PageOne.vue';
 import PageTwo from '@/pages/PageTwo.vue';
 
 const app = createApp(App);
@@ -10,7 +10,7 @@ const app = createApp(App);
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
-    { path: '/', component: Home },
+    { path: '/page-one', component: PageOne },
     { path: '/page-two', component: PageTwo },
 
   ],
