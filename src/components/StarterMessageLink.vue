@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { RouterLinkProps } from 'vue-router';
+import type { RouterLinkProps } from 'vue-router';
 
 withDefaults(defineProps<{
   to?: RouterLinkProps['to']
   text?: string
   icon?: 'github' | 'stackblitz'
 }>(), {
-  to: ''
+  to: '',
 });
 </script>
 

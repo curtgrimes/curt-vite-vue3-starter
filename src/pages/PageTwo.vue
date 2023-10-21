@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="text-sm flex items-center gap-2 justify-center">
+  <div class="flex items-center justify-center gap-2 text-sm">
     <StarterMessageLink to="/page-one">
       <i-mdi-arrow-left /> Back to /page-one
     </StarterMessageLink>
