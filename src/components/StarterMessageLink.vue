@@ -1,23 +1,28 @@
 <script setup lang="ts">
+import { computed } from 'vue';
+import { RouterLink } from 'vue-router';
 import type { RouterLinkProps } from 'vue-router';
 
-withDefaults(defineProps<{
+const props = withDefaults(defineProps<{
   to?: RouterLinkProps['to']
   text?: string
   icon?: 'github' | 'stackblitz'
 }>(), {
   to: '',
 });
+
+const isExternalLink = computed(() => String(props.to)?.startsWith('http'));
 </script>
 
 <template>
-  <RouterLink
-    :to="to"
+  <component
+    :is="isExternalLink ? 'a' : RouterLink"
+    v-bind="{ [isExternalLink ? 'href' : 'to']: to }"
   >
     <i-mdi-github v-if="icon === 'github'" />
     <i-mdi-lightning-bolt v-else-if="icon === 'stackblitz'" />
     <slot>{{ text }}</slot>
-  </RouterLink>
+  </component>
 </template>
 
 <style scoped>
